@@ -9,6 +9,7 @@ function printShipSummary($someShip)
 {
   echo 'Ship name: ' . $someShip->name;
   echo '<hr/>';
+  $messup;
   $someShip->sayHello();
   echo '<hr/>';
   echo $someShip->getName();
